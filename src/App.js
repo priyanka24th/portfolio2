@@ -1,9 +1,17 @@
-import './App.css';
+
+import Home from './components/Home';
+
 
 function App() {
   return (
-    <h1>TEST</h1>
-      );
+    <div>
+      <Home>
+        </Home>   
+     
+     
+    </div>
+
+  );
 }
 
 export default App;
