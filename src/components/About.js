@@ -1,5 +1,6 @@
 import React from 'react';
-import { Segment, Icon } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react';
+import about from "../img/about.png";
 
 class About extends React.Component {
   render() {
@@ -26,13 +27,10 @@ class About extends React.Component {
       <span id="highlight">Node.js and Modern Javascript Library and Frameworks  like 
       React.js</span> <br/>
       Apart From that I am learning <span id="highlight">Java</span> As well<br/>
-      </p>
-      
-             
-           
-
+      </p>      
+      <img className="ui large centered responsive circular image" src={about}></img>
       <div className="hobbies">
-        <h3>Apart from coing some other activities that I love to do are:</h3>
+        <h3>Apart from coding some other activities that I love to do are:</h3>
         <ul>
           <li><Icon inverted color='white' size='big' name='hand point right outline' />Playing Badminton</li>
           <li><Icon inverted color='white'  size='big' name='hand point right outline' />Listening To Music</li>

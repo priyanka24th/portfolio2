@@ -20,14 +20,14 @@ p{
   color:white;
   text-align:left;
   font-weight:bolder;
-  font-size:10vh;
+  font-size:8vh;
   word-wrap:break-word;
 }
 #aboutME{
   color:white;
   text-align:left;
   font-weight:bolder;
-  font-size:3vh;
+  font-size:2.2vh;
   word-wrap:break-word;
 
 }
@@ -35,34 +35,33 @@ h1{
   color:white;
   text-align:center;
   font-weight:bolder;
-  font-size:8vh;
+  font-size:6vh;
   word-wrap:break-word;
+ 
 }
 .myself{
   color:yellow;
   word-wrap:break-word; 
   font-weight:bolder;
-  font-size:8vh;
+  font-size:6vh;
   text-align:left;
  
 }
 @media(max-width: 800px) {
   .myself{
-    font-size:4vh; 
+    font-size:3vh; 
   }
   p{
-    font-size: 5vh;
+    font-size: 4vh;
   }
   .hobbies{
- 
-   
-    font-size: 2vh;
+    font-size: 1vh;
     word-wrap: break-word;
     font-weight: bolder;
   
   }
   h3{
-    font-size: 3vh;
+    font-size: 2vh;
   }
 }
 
@@ -70,12 +69,10 @@ h1{
 .find{
   text-align: center;
   color: white;
-  font-size: 6vh;
+  font-size: 4vh;
 }
 .about{
-
-  border: black solid;
-  height: 370vh;
+  height: 250vh;
   margin: auto;
   width: 100%;
 
@@ -83,20 +80,18 @@ h1{
 
 .about1{
  
-  border: black solid;
-  height: 130vh;
+  height: 90vh;
   margin-top: 20vh;
   width: 100%;
 
 }
 h3{
-  font-size: 4vh;
+  font-size: 3vh;
   word-wrap: break-word;
 }
 .hobbies{
  
-  border: white solid;
-  height: 120vh;
+  height: 80vh;
   margin-top: 20vh;
   margin-left: 10vh;
   width: 50%;
@@ -111,12 +106,31 @@ h3{
   color: yellow;
   word-wrap: break-word;
 }
+#Skillhighlight{
+  color: darkorchid;
+  word-wrap: break-word;
+}
 #home{
   margin: auto;
   background-image: url('../src/img/home-bg.jpg');
   background-size: cover;
-   height: 400vh;
-  border: black solid; 
+   height: 340vh;
+  
+}
+#skills{
+  margin: auto;
+  background-image: url('../src/img/star.jpg');
+  background-size: cover;
+   height: 165vh;
+  
+}
+.skill{
+ 
+  border: black solid;
+  height: 300vh;
+  margin-top: 20vh;
+  width: 100%;
+
 }
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
@@ -137,3 +151,16 @@ h3{
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
+.tech-icons{
+  color: white;
+  border: darkorchid solid 0.1vh;
+  border-radius: 2vh;
+  transition: all 0.4s ease 0s
+ 
+}
+.tech-icons:hover {
+  transform: scale(1.05) ;
+  overflow: hidden;
+  border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+
