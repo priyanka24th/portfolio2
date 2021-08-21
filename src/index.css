@@ -23,6 +23,28 @@ p{
   font-size:8vh;
   word-wrap:break-word;
 }
+
+#para{
+  color:white;
+  text-align:center;
+  font-weight:bolder;
+  font-size:3vh;
+  word-wrap:break-word;
+}
+h4{
+  color:white;
+  text-align:center;
+  font-size:4vh;
+  word-wrap:break-word;
+}
+#project_details{
+  color:white;
+  text-align:justify;
+  font-size:3vh;
+  word-wrap:break-word;
+  padding: 1vh;
+ 
+}
 #aboutME{
   color:white;
   text-align:left;
@@ -48,6 +70,15 @@ h1{
  
 }
 @media(max-width: 800px) {
+  #project_details{
+   font-size: 2vh;
+   
+  }
+  h4{
+    font-size:3vh;
+  }
+  
+ 
   .myself{
     font-size:3vh; 
   }
@@ -124,7 +155,7 @@ h3{
    height: 165vh;
   
 }
-.skill{
+.skill,.project{
  
   border: black solid;
   height: 300vh;
@@ -132,6 +163,21 @@ h3{
   width: 100%;
 
 }
+#skills{
+  margin: auto;
+  background-image: url('../src/img/star.jpg');
+  background-size: cover;
+   height: 165vh;
+  
+}
+#projects{
+  margin: auto;
+  background-image: url('../src/img/star.jpg');
+  background-size: cover;
+   height: 330vh;
+  
+}
+
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -155,9 +201,14 @@ h3{
   color: white;
   border: darkorchid solid 0.1vh;
   border-radius: 2vh;
-  transition: all 0.4s ease 0s
+  transition: all 0.4s ease 0s;
+  height: 50vh;
+
+ 
+
  
 }
+
 .tech-icons:hover {
   transform: scale(1.05) ;
   overflow: hidden;
