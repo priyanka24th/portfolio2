@@ -60,7 +60,7 @@ class Projects extends React.Component {
                Purpose was to enahnce my knowldege
                </p>
                <button class="ui purple button responsive" id="view">
-                  IN PROGRESS     
+                 VIEW PROJECT    
                  </button>
                </div>
 

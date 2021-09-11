@@ -1,21 +1,4 @@
 import React from 'react'
-import TextLoop from "react-text-loop";
-import {
-  DiJavascript1,
-  DiHtml5,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiCss3,
-  DiReact,
-  DiLinux,
-  DiJava,
-  DiVisualstudio,
-  DiGithub,
-} from "react-icons/di";
-
-
 
 class Navigation extends React.Component {
   render() {
