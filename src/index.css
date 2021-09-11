@@ -11,6 +11,7 @@ body {
   
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -58,6 +59,13 @@ h1{
   text-align:center;
   font-weight:bolder;
   font-size:6vh;
+  word-wrap:break-word;
+ 
+}
+h3{
+  color:white;
+  text-align:left;
+  font-size:1vh;
   word-wrap:break-word;
  
 }
@@ -148,11 +156,28 @@ h3{
    height: 340vh;
   
 }
+.footer{
+  margin: auto;
+  background-image: url('../src/img/home-bg.jpg');
+  background-size: cover;
+  height: 20vh;
+
+  padding: 2vh;
+  
+}
 #skills{
   margin: auto;
   background-image: url('../src/img/star.jpg');
   background-size: cover;
    height: 165vh;
+  
+}
+
+#resume{
+  margin: auto;
+  background-image: url('../src/img/star.jpg');
+  background-size: cover;
+   height: 20vh;
   
 }
 .skill,.project{
@@ -163,6 +188,11 @@ h3{
   width: 100%;
 
 }
+
+a { 
+  color: white;
+}
+
 #skills{
   margin: auto;
   background-image: url('../src/img/star.jpg');
@@ -170,6 +200,8 @@ h3{
    height: 165vh;
   
 }
+
+
 #projects{
   margin: auto;
   background-image: url('../src/img/star.jpg');

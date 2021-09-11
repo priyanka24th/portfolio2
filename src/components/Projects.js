@@ -18,7 +18,9 @@ class Projects extends React.Component {
                 Designed automated reports using Node.JS,Google maps APIs which provided KPI analysis for 3G and 4G.Technology used:Javascript,Node.js,
                 MongoDB,Express.js
                </p>
-               <button class="ui purple button responsive" id="view">LINK NOT AVAILABLE</button>
+               <button class="ui purple button responsive" id="view">  
+                 LINK NOT AVAILABLE
+                 </button>
 
               </div>
               </div>
@@ -31,7 +33,9 @@ class Projects extends React.Component {
                 used-Python,Pandas,MongoDb,GIT,LINUX
 
                </p>
-               <button class="ui  purple button responsive" id="view">LINK NOT AVAILABLE</button>
+               <button class="ui  purple button responsive" id="view"> 
+                 LINK NOT AVAILABLE
+                 </button>
 
               </div>
               </div>
@@ -42,7 +46,9 @@ class Projects extends React.Component {
                Created portfoloio using HTML,CSS and Javascript.
                Purpose was to enahnce my knowldege
                </p>
-               <button variant="primary" class="ui purple button responsive" id="view">VIEW PROJECT</button>
+               <button variant="primary" class="ui purple button responsive" id="view">  <a href="https://priyanka24th.github.io/Portfolio/" target="_blank">
+                  VIEW PROJECT
+                 </a></button>
                </div>
 
               </div>
@@ -53,7 +59,9 @@ class Projects extends React.Component {
                Created portfoloio using React.Js.
                Purpose was to enahnce my knowldege
                </p>
-               <button class="ui purple button responsive" id="view">VIEW PROJECT</button>
+               <button class="ui purple button responsive" id="view">
+                  IN PROGRESS     
+                 </button>
                </div>
 
               </div>
@@ -64,8 +72,11 @@ class Projects extends React.Component {
                Created a basic To-do App backend functionality using Node JS, MongoDB, JWT,REST API for authentication
 • The app has a feature where an authenticated user can be allowed to perform basic CRUD application
                </p>
-               <button class="ui  purple button responsive" id="view">VIEW PROJECT</button>
-
+               <button class="ui  purple button responsive" id="view">
+              
+                 DEPLOYEMENT PENDING
+               
+               </button>
               </div>
               </div>
             

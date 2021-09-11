@@ -26,7 +26,6 @@ class About extends React.Component {
       Whenever possible, I also apply my passion for developing products with<br/> 
       <span id="highlight">Node.js and Modern Javascript Library and Frameworks  like 
       React.js</span> <br/>
-      Apart From that I am learning <span id="highlight">Java</span> As well<br/>
       </p>      
       <img className="ui large centered responsive circular image" src={about}></img>
       <div className="hobbies">
@@ -36,7 +35,7 @@ class About extends React.Component {
           <li><Icon inverted color='white'  size='big' name='hand point right outline' />Listening To Music</li>
           <li><Icon inverted color='white'  size='big'name='hand point right outline' />Reading</li>
           <li><Icon inverted color='white'  size='big'name='hand point right outline' />Playing Cricket</li>
-          <li><Icon inverted color='white'  size='big'name='hand point right outline' />Watching Shinchan</li>
+          <li><Icon inverted color='white'  size='big'name='hand point right outline' />Watching Shinchan and sarabhai vs sarabhai</li>
         </ul>
 
       </div>
